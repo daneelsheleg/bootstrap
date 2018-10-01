@@ -16,9 +16,10 @@ module.exports = {
     watch: true,
     module: {
       rules: [{
-        test: /\.(png|woff|woff2|eot|ttf|svg)$/, loader: 'url-loader?limit=100000'
-      },
-        {test: /\.scss$/,
+        test: /\.(woff|woff2|eot|ttf)$/,
+        loader: 'url-loader?limit=100000'
+      }, {
+        test: /\.scss$/,
         use: [{
           loader: "style-loader"
         }, {
@@ -29,6 +30,9 @@ module.exports = {
             includePaths: []
           }
         }]
+      }, {
+        test: /\.(gif|svg|jpg|png)$/,
+        loader: "file-loader",
       }]
     },
     plugins: [
