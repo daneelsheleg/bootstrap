@@ -1,0 +1,50 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
+$text-center:center;
+
+a:hover, a{
+	text-decoration: none; 
+}
+.menu{
+	margin-right:20px;
+	text-transform:capitalize;
+	color:#D5D5D4;
+	font-size: 14px;
+}
+.home{
+	padding-top: 10px;
+}
+.menu:hover{
+	color:#B6A48D;
+}
+.foto{
+	background-color: red;
+	height:950px;
+}
+.row{
+	padding-top: 50px;
+	margin-bottom: 350px;
+}
+.waxom{
+	font-size: 34px;
+	margin-top:-10px;
+}
+.logo-text{
+	text-align: $text-center;
+}
+.head-text{
+	color:#FFFFFF;
+}
+.button{
+	margin-top: 60px;
+	background-color: #998675;
+	font-size:14px;
+}
+.big-text{
+	font-size: 36px;
+}
+.bold-text{
+	font-weight: bold;
+	font-size: 52px;
+	line-height:80px;
+}
