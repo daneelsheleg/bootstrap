@@ -1,5 +1,6 @@
 
 .foto{
+	margin-bottom: 70px;
 transform: translate(-50%);
 	left:50%;
 	position: absolute;
@@ -10,10 +11,11 @@ transform: translate(-50%);
 	position: relative;
 	z-index: 1;
 }
-.row{
+.row-one{
 	margin-top: 50px;
+	margin-left:100px;
 }
-.container{
+.wrap{
 	margin-top: -20px;
 	padding-left: 200px;
 	width: 850px;
@@ -49,4 +51,45 @@ font-size: 200px;
 }
  .left:hover{
 	color:#BFAF9E;
+}
+.png{
+	position: absolute;
+	margin-left: -80px;
+	margin-top: -10px;
+}
+.waxom{
+	position: relative;
+}
+.text{
+	text-align: center;
+	
+}
+.img{
+	margin-right: 3%;
+	text-align: center;
+}
+.row{
+	margin-right: 0px;
+}
+.carousel{
+	margin-bottom: 70px;
+}
+.size{
+	font-size:14px;
+	line-height: 20px;
+	margin-bottom: 30px;
+}
+.img-dop{
+	text-align: center;
+}
+.block{
+	text-align: center;
+}
+.line{
+	border: 2px solid rgb(216, 199, 106);
+	margin-bottom: 20px;
+	margin-left: 90px
+}
+.height{
+	line-height: 50px
 }
