@@ -16,10 +16,9 @@ module.exports = {
     watch: true,
     module: {
       rules: [{
-        test: /\.(woff|woff2|eot|ttf)$/,
-        loader: 'url-loader?limit=100000'
-      }, {
-        test: /\.scss$/,
+        test: /\.(woff|woff2|eot|ttf|)$/, loader: 'url-loader?limit=100000'
+      },
+        {test: /\.scss$/,
         use: [{
           loader: "style-loader"
         }, {

@@ -325,3 +325,22 @@ background-color:#111111;
 .block:hover .unit-four{
 	background-image: url(img/unit-4.png);
 }
+.abs{
+	position: absolute;
+	margin-left: 50%;
+	margin-top: -300px;
+	transform: translate(-50%);
+}
+.waxom-two{
+	font-size: 28px;
+	color:#F0EFEF;
+
+}
+.png-two{
+	margin-top: -60px;
+	height: 40px;
+	width: 50px;
+	margin-left: 50%;
+	transform: translate(-50%);
+
+}
