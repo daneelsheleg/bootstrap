@@ -344,3 +344,50 @@ background-color:#111111;
 	transform: translate(-50%);
 
 }
+												/*video*/
+.video-size{
+	font-size: 30px;
+	line-height: 50px;
+}
+.video{
+	position: relative;
+}
+.video-absolute{
+	color:white;
+	text-align: center;
+	position: absolute;
+	margin-left: 50%;
+	transform: translate(-50%);
+	margin-top: -350px;
+}
+.video-text {
+line-height: 25px;
+}
+.time{
+	color:#B9A791;
+	margin-top: 35px
+}
+													/*telephone*/
+.tel{
+	background-image: url(img/tel.png);
+	width: 430px;
+	height: 600px;
+	margin-left: 100px;
+}
+.grid-tel{
+	padding-top: 80px;
+	display: grid;
+		grid-template-columns: repeat(2, 1fr); 
+		background-color: #FBFAF8;
+		 grid-template-columns: 550px 60% ;
+}
+.tel-text{
+
+}
+.table p::before{
+	content: url(img/right.png);
+	vertical-align: text-top;
+}
+.table p{
+	line-height: 30px;
+}
