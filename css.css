@@ -274,6 +274,8 @@ font-size: 200px;
 .icon:hover{
 	color:#C7B299;
 }
+
+
 .animation:hover .body .text-in-card-small{color:#C7B299}
 .animation:hover .body .text-in-card-big{color:#FFFFFF}
 .text-in-card-small{color:#D1D1D1;}
@@ -382,12 +384,113 @@ line-height: 25px;
 		 grid-template-columns: 550px 60% ;
 }
 .tel-text{
-
+	color:#AEADAD
 }
 .table p::before{
 	content: url(img/right.png);
 	vertical-align: text-top;
+	padding-right: 30px;
+	padding-left: 50px;
 }
 .table p{
 	line-height: 30px;
+}
+.table{
+	padding-top: 25px;
+}
+
+												/*gradient-big*/
+
+.gradient-big{
+	background: linear-gradient(270deg, #533729,#211B19);
+   width:100%;
+   height: 300px;
+   display: flex;
+   margin-bottom: 70px;
+   flex-direction: row;
+}
+
+																	/*Recent Posts.*/
+.icon-usually{
+	line-height: 25px;
+	margin-bottom: 40px;
+}
+.flex{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr); 
+	grid-gap: 30px;
+}
+.card-text-color:hover{
+	background-color: #362F2D;
+}
+.card-body-mini{
+	padding-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+.animation-two:hover{
+    opacity: 1;
+  transform: scale(1);
+     background: rgba(0,0,0,0.6);
+    cursor: pointer;
+}
+
+.animation-two:hover .body-one {
+	background-color: #362F2D;
+}
+.body-one{
+	background-color: #FBFAF8;
+	line-height: 30px;
+	position: relative;
+}
+
+.text-in-card-small-one{
+	color:#5E5552;
+}
+
+
+
+.hover-card{
+	display: none;
+	position: absolute;
+	opacity: 0;
+	height: 200px;
+	left:0;
+	right: 0;
+	bottom:0;
+	text-outline: 0;
+	
+	transform: scale(0);
+}
+.card{
+	position: relative;
+}
+.card:hover .hover-card{
+	background: red;
+	opacity: 0.5;
+	display: block;
+
+	transform: scale(1);
+}
+
+
+.imga{
+	height: 100%;
+	width: 100%;
+	display: block;
+}
+.animation-two:hover .hover-card-one{
+	background: red;
+	opacity: 0.5;
+	display: block;
+
+	transform: scale(1);
+}
+.hover-card-one{
+	display: none;
+	position: absolute;
+	opacity: 0;
+	height: 250px;
+	width: 360;
+	transform: scale(0);
 }
